@@ -1,0 +1,27 @@
+h1{
+    color: red;
+}
+.classS{
+    background-color: yellow;
+}
+
+#idS{
+    color: blue;
+}
+.heise{
+    background-color: black;
+    color: white;
+}
+.purple{
+    background-color: purple;
+    color: white;
+}
+.lvse{
+    background-color: green;
+    color: white;
+}
+
+.parent.child{
+    background-color: orange;
+    color: white;
+}
