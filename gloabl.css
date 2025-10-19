@@ -21,7 +21,78 @@ h1{
     color: white;
 }
 
-.parent.child{
-    background-color: orange;
+.parent{
+    .child{
+        background-color: orange;
+        color: white;
+    }
+
+}
+.parent.child2{
+    background-color: gray;
     color: white;
+}
+
+.child{
+    background-color: pink;
+    color: white;
+}
+
+.violet{
+    color: violet;
+}
+.textlg{
+    font-size: 32px;
+}
+.text-center{
+    text-align: center;
+}
+.rgb{
+    color: rgb(235, 70, 224);
+}
+.hex{
+    color: #1e1e1e;
+}
+.background-color{
+    background-color: #eb46e0;
+}
+.border-color{
+    border:3px solid #4e34cf;
+}
+.text-opacity{
+    color: rgb(235, 70, 224, 0.2);
+}
+.opacity{
+    opacity: 0.5;
+}
+
+.text-1{
+    font-family: MaShanZheng,'sans-serif';
+}
+
+.text-2{
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: overline;
+}
+
+.text-3{
+    font-weight: 200;
+}
+.text-4{
+    font-style: italic;
+}
+
+.box-model{
+    margin-left: 10px;
+    padding-top: 20px;
+    border: 4px solid black;
+}
+.box-model2{
+    margin: 10px 20px;
+    border: 4px dotted rgba(235, 70, 224, 0.5);
+}
+.box-model3{
+    width: 80px;
+    height: 120px;
 }
